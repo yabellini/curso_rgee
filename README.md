@@ -46,6 +46,17 @@ Es necesario instalar miniconda para que **rgee** funcione. La función `ee_inta
 ```{r}
 library(rgee)  # cargamos el paquete rgee
 ee_install() # pedimos que instale miniconda
+
+# Inicializar Earth Engine! (vamos a necesitar tener nuestro usuario habilitado)
+ee_Initialize()
+```
+
+Adicionalmente, si tuviste algún problema durante la instalación estas funciones pueden ser útiles para comprobar el estado de las dependencias de rgee y eliminar las credenciales. 
+
+```{r}
+ee_check() # Verifica las dependencias que no son de R
+ee_clean_credentials() # Eliminar credenciales de un usuario específico
+ee_clean_pyenv() # Eliminar variables del sistema
 ```
 
 ## Fuentes
