@@ -48,3 +48,6 @@ library(rgee)  # cargamos el paquete rgee
 ee_install() # pedimos que instale miniconda
 ```
 
+## Fuentes
+
+* 250 ejemplos de uso de **rgee**: https://csaybar.github.io/rgee-examples/
