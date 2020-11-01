@@ -62,3 +62,4 @@ ee_clean_pyenv() # Eliminar variables del sistema
 ## Fuentes
 
 * 250 ejemplos de uso de **rgee**: https://csaybar.github.io/rgee-examples/
+* Teledetección y bandas mutiespectrales: https://mappinggis.com/2019/05/combinaciones-de-bandas-en-imagenes-de-satelite-landsat-y-sentinel/
