@@ -63,3 +63,5 @@ ee_clean_pyenv() # Eliminar variables del sistema
 
 * 250 ejemplos de uso de **rgee**: https://csaybar.github.io/rgee-examples/
 * Teledetección y bandas mutiespectrales: https://mappinggis.com/2019/05/combinaciones-de-bandas-en-imagenes-de-satelite-landsat-y-sentinel/
+* Manual de agricultura de precisión utilizando imágenes satelitales: http://www.rederural.gov.pt/centro-de-recursos/send/10-inovacao/1860-agricultura-de-precisao-com-imagens-de-satelite-manual-de-boas-praticas-agricolas
+
