@@ -58,6 +58,9 @@ ee_check() # Verifica las dependencias que no son de R
 ee_clean_credentials() # Eliminar credenciales de un usuario específico
 ee_clean_pyenv() # Eliminar variables del sistema
 ```
+## Slides
+
+https://docs.google.com/presentation/d/1Mu50nWCI4Y-k0hQCbQAHKO1qWlboDafifWGnNues8w0/edit?usp=sharing
 
 ## Fuentes
 
