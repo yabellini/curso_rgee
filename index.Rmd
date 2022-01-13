@@ -6,7 +6,9 @@ title: "Procesando datos espaciales con R"
 
 Este curso está pensado para [personas](personas.html) que ya usan Google Earth Engine (GEE) y quieren empezar a usarlo desde R o bien que quieren iniciarse en el uso de GEE y el paquete rgee.
 
-Los contenidos tienen unas slides donde se explican una serie de conceptos sobre teledetección, cultivos e indices multiespectrales y luego una parte práctica para hacer tareas comunes de trabajo y procesamiento de imágenes satelitals.
+Veremos conceptos básicos de datos espaciales, los paquetes disponibles en R para trabajar con este tipo de datos y nos enfocaremos en el paquete rgee para el uso de Google Earth Engine desde R. 
+
+Los materiales presentan un video con el taller completo, incluyendo conceptos teóricos y práctica con código. 
 
 El taller fue dictado como un seminario web para [Desafíos AgTech 2020](https://desafiosagtech.com/)
 
