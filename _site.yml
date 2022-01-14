@@ -9,7 +9,7 @@ navbar:
           href: 02-entorno_de_trabajo.html
         - text: Clasificación supervisada
           href: 03-tareas_basicas.html
-        - text: Data manipulation
+        - text: Clasificación supervisada
           href: 04-clasificacion_supervisada.html
   right:
     - text: Repo
