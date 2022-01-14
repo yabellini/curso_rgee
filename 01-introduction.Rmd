@@ -3,18 +3,24 @@ title: "Introducción"
 output: 
   html_document:
     code_download: true
-    toc: true
-    toc_float: false
     highlight: tango
 ---
 
 ## Procesando datos espaciales con R
 
+### Video
+
 En el siguiente video se presenta el seminario, la primera mitad del taller presenta conceptos de teledetección, indices multiespectrales, firma espectral y como esto se relaciona con los cultivos.
 
 La segunda parte del video presenta la práctica con código que puden encontrar en los dos siguientes capítulos.
 
+[![Link al video del taller](img/video.png)](https://youtu.be/JADzBIypdyY "Ver taller")
+
+
+
+### Slides
+
 Pueden acceder a las slides desde este link: https://docs.google.com/presentation/d/1Mu50nWCI4Y-k0hQCbQAHKO1qWlboDafifWGnNues8w0/edit?usp=sharing
 
-> Now is your turn. Go ahead and look through the code, if you find any mention of `"gentoo"`, change it to any of the other species. 
+
 

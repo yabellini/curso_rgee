@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-## rgee y Google Earth Engine
+## Google Earth Engine y {rgee}
 
 _Si ya te registrate en GEE podes saltear este paso_
 
@@ -18,39 +18,39 @@ Necesitamos que te registres en la herramienta para poder utilizarla durante el 
 
 https://signup.earthengine.google.com/
 
-### R y RStudio
+## R y RStudio
 
 _Si ya tenes instalado R y RStudio podes saltear este paso_
 
 
 Asumimos que tenes instalado R y RStudio, si no es así [seguí estas intrucciones](https://paocorrales.github.io/deExcelaR/instalacion.html) que Paola Corrales y Elio Campitelli escribieron de forma tan clara.
 
-### Paquetes de R para trabajar con datos espaciales
+## Paquetes de R para trabajar con datos espaciales
 
 _Si ya tenes instalados todos los paquetes mencionados aquí podes saltear este paso_
 
 Vas a tener que instalar una serie de paquetes que te permiten trabajar con datos espaciales, algunos los usaremos durante el seminario web.
 
-#### Paquetes para trabajo con datos
+### Paquetes para trabajo con datos
 `install.packages("tidyverse")`
 
-#### Paquetes para trabajo con datos espaciales: r-spatial
+### Paquetes para trabajo con datos espaciales: r-spatial
 
-```{r}
+```{r eval=FALSE}
 install.packages("sf") # para trabajar con datos vectoriales y rgee depende de sf
 install.packages("raster") # para trabajar con datos raster.
 install.packages("mapedit") #para trabajar con mapas interactivos.
 install.packages("tmap") # para generar mapas temáticos.
 ```
 
-#### Paquetes para trabajo con GEE
+### Paquetes para trabajo con GEE
 
 _Si ya tenes instalado rgee podes saltear este paso_
 
 Para instalar **rgee** desde GitHub ejecutar este código de R:
 
 
-```{r}
+```{r eval=FALSE}
 remotes::install_github("r-spatial/rgee")
 ```
 
@@ -62,7 +62,7 @@ y luego puedas ejecutar `remotes::install_github('r-spatial/rgee')` sin problema
 
 Es necesario instalar miniconda para que **rgee** funcione. La función `ee_intall()` se encarga de esta tarea.  Se ejecuta solamente una vez.
 
-```{r message=FALSE, warning=FALSE}
+```{r message=FALSE, warning=FALSE, eval=FALSE}
 library(rgee)  # cargamos el paquete rgee
 ee_install() # pedimos que instale miniconda
 
@@ -70,7 +70,7 @@ ee_install() # pedimos que instale miniconda
 
 Adicionalmente, si tuviste algún problema durante la instalación estas funciones pueden ser útiles para comprobar el estado de las dependencias de rgee y eliminar las credenciales. 
 
-```{r}
+```{r eval=FALSE}
 ee_check() # Verifica las dependencias que no son de R
 ee_clean_credentials() # Eliminar credenciales de un usuario específico
 ee_clean_pyenv() # Eliminar variables del sistema

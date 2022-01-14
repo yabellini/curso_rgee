@@ -66,7 +66,7 @@ training = image$sampleRegions(
 
 Ahora se entrena el clasificador, en el ejemplo se usa Support Vector Machine y se aplica a las imágenes.
 
-```{r eval=false }
+```{r eval=FALSE}
 
 # Create an SVM classifier with custom parameters.
 classifier = ee$Classifier$svm(
@@ -86,7 +86,7 @@ classified = image$classify(trained)
 
 Finalmente se muestra la clasificación obtenida.
 
-```{r eval=false}
+```{r eval=FALSE}
 
 # Display the classification result and the input image.
 geoviz_image = list(bands = c("B4", "B3", "B2"), max = 0.5, gamma = 2)
