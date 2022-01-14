@@ -5,9 +5,9 @@ navbar:
        menu: 
         - text: Introducción
           href: 01-introduction.html
-        - text: Tareas básicas
+        - text: Entorno de trabajo
           href: 02-entorno_de_trabajo.html
-        - text: Clasificación supervisada
+        - text: Tareas básicas
           href: 03-tareas_basicas.html
         - text: Clasificación supervisada
           href: 04-clasificacion_supervisada.html
