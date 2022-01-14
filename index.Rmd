@@ -72,7 +72,7 @@ ee_clean_pyenv() # Eliminar variables del sistema
 ```
 
 
-## Quén soy? 
+## ¿Quién soy? 
 
 **Yanina Bellini Saibene**
 
@@ -86,7 +86,7 @@ Yanina Bellini Saibene, MSc. Lic. Es investigadora titular en el Instituto Nacio
 
 ___
 
-### Licencia
+## Licencia
 
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />
 Todo el material de este curso está bajo la licencia <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es_ES">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
