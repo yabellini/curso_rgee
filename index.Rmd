@@ -99,3 +99,7 @@ Nos inspiramos y basamos en los siguientes recursos:
 * Handbook de rgee: https://github.com/barja8/Handbook_rgee
 
 El código fuente de estos materiales y la página web pueden encontrarse en https://github.com/yabellini/curso_rgee.
+
+Puedes citar ester recurso como:
+
+> Yanina Bellini Saibene. (2022). yabellini/curso_rgee: Procesando datos espaciales con R (v1.0). Zenodo. https://doi.org/10.5281/zenodo.5849116
